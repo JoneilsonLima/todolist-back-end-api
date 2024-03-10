@@ -11,7 +11,7 @@ public class Todo {
     private Long id;
     private String nome;
     private String descricao;
-    private String realizado;
+    private boolean realizado;
     private int prioridade;
 
     public Long getId() {
@@ -38,11 +38,11 @@ public class Todo {
         this.descricao = descricao;
     }
 
-    public String getRealizado() {
+    public boolean getRealizado() {
         return realizado;
     }
 
-    public void setRealizado(String realizado) {
+    public void setRealizado(boolean realizado) {
         this.realizado = realizado;
     }
 
